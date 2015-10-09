@@ -1,6 +1,6 @@
 <?php
 
-namespace johnitvn\rbacplus;
+namespace elgorm\rbacplus;
 
 use Yii;
 use yii\base\BootstrapInterface;
