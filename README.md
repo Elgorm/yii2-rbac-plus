@@ -22,13 +22,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist johnitvn/yii2-rbac-plus "*"
+php composer.phar require --prefer-dist elgorm/yii2-rbac-plus "*"
 ```
 
 or add
 
 ```
-"johnitvn/yii2-rbac-plus": "*"
+"elgorm/yii2-rbac-plus": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -46,7 +46,7 @@ Usage
 ],
 'modules' => [
     'rbac' =>  [
-        'class' => 'johnitvn\rbacplus\Module'
+        'class' => 'elgorm\rbacplus\Module'
     ]       
 ]
 ````
@@ -69,7 +69,7 @@ Ok. That's done. Avaiable route now:
 ````
 'modules' => [
     'rbac' =>  [
-        'class' => 'johnitvn\rbacplus\Module',
+        'class' => 'elgorm\rbacplus\Module',
         'userModelClassName'=>null,
         'userModelIdField'=>'id',
         'userModelLoginField'=>'username',
