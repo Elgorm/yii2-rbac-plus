@@ -4,7 +4,7 @@ use yii\bootstrap\Modal;
 use kartik\grid\GridView;
 use elgorm\ajaxcrud\CrudAsset;
 
-$this->title = Yii::t('rbac','Permisstions Manager');
+$this->title = Yii::t('rbac','Permissions Manager');
 $this->params['breadcrumbs'][] = $this->title;
 
 CrudAsset::register($this);
